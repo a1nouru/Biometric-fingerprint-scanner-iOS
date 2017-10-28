@@ -12,6 +12,7 @@
 		33922AF61F887D9700E2F637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33922AF41F887D9700E2F637 /* Main.storyboard */; };
 		33922AF81F887D9700E2F637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33922AF71F887D9700E2F637 /* Assets.xcassets */; };
 		33922AFB1F887D9700E2F637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33922AF91F887D9700E2F637 /* LaunchScreen.storyboard */; };
+		33922B041F887DB200E2F637 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33922B031F887DB200E2F637 /* LocalAuthentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		33922AF71F887D9700E2F637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33922AFA1F887D9700E2F637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33922AFC1F887D9700E2F637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33922B031F887DB200E2F637 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33922B041F887DB200E2F637 /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				33922AEF1F887D9600E2F637 /* Authentication */,
 				33922AEE1F887D9600E2F637 /* Products */,
+				33922B021F887DB200E2F637 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				33922AFC1F887D9700E2F637 /* Info.plist */,
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		33922B021F887DB200E2F637 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33922B031F887DB200E2F637 /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,9 +287,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C243FSLH8;
 				INFOPLIST_FILE = Authentication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.daniarnaout.Authentication;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nouru.muneza;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -289,9 +302,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C243FSLH8;
 				INFOPLIST_FILE = Authentication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.daniarnaout.Authentication;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nouru.muneza;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

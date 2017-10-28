@@ -1,9 +1,9 @@
 //
-//  AppDelegate.swift
+//  ViewController.swift
 //  Authentication
 //
-//  Created by Dani Arnaout on 10/6/17.
-//  Copyright © 2017 Dani Arnaout. All rights reserved.
+//  Created by Nouru Muneza on 10/6/17.
+//  Copyright © 2017 Nouru Muneza. All rights reserved.
 //
 
 import UIKit
